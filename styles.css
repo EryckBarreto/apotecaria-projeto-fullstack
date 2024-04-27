@@ -1,19 +1,54 @@
-:root {
-    --cor-principal: #060210;
-    --cor-principal-light: #1f2125;
-    --cor-principal-extra-light: #35373b;
-    --cor-secundaria: #c27f78;
-    --cor-secundaria-dark: #875751;
-    --text-light: #d1d5db;
-    --cor-botao: #ffffff;
-    --cor-branca: #f5f5f5;
-    --max-width: 1200px;
-  }
-  
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-  
+:root {
+  --cor-principal: #060210;
+  --cor-principal-light: #1f2125;
+  --cor-principal-extra-light: #35373b;
+  --cor-secundaria: #c27f78;
+  --cor-secundaria-dark: #875751;
+  --text-light: #d1d5db;
+  --cor-botao: #ffffff;
+  --cor-branca: #f5f5f5;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--cor-branca);
+}
+
+.section__subheader {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.btn {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: var(--cor-secundaria);
+  background-color: transparent;
+  border: 2px solid var(--cor-secundaria);
+}
+
