@@ -9,7 +9,7 @@
 <body>
   <header class="fale_conosco">
     <div class="video-container">
-      <video controls autoplay loop muted>
+      <video id="backgroundVideo" controls autoplay loop muted>
         <source src="assets/galaxyPurple.mp4" type="video/mp4">
       </video>
       <form action="/submit_form" method="post">
@@ -25,5 +25,11 @@
       </form>
     </div>
   </header>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var video = document.getElementById('backgroundVideo');
+      video.playbackRate = 0.3;
+    });
+  </script>
 </body>
 </html>
