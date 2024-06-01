@@ -632,33 +632,37 @@ nav {
 
 .modal {
   display: none;
-  position: fixed; 
-  z-index: 100; 
-  left: 0; 
-  top: 0; 
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(30, 30, 30, 0.8);
 }
 
 .modal-content {
-  background-color: #fff;
-  margin: 15% auto;
+  background-color: #292929;
+  margin: 10% auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 2px solid #333;
+  border-radius: 8px;
   width: 80%;
   max-width: 500px;
   text-align: center;
+  color: #ddd;
+  font-family: Arial, sans-serif;
 }
 
 .loading {
   font-size: 1.5rem;
+  color: #ddd;
 }
 
 .success-message {
   font-size: 1.5rem;
-  color: green;
+  color: var(--cor-branca);
 }
 
 @media (width < 900px) {
@@ -740,4 +744,33 @@ nav {
     text-align: center;
   }
   
+  .modal-content {
+    width: 90%;
+    max-width: 90%;
+    padding: 10px;
+  }
+
+  .fale_conosco form {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .fale_conosco label {
+    font-size: 1rem;
+  }
+
+  .fale_conosco input,
+  .fale_conosco textarea {
+    font-size: 0.9rem;
+    padding: 8px;
+    margin-top: 5px;
+  }
+
+  .fale_conosco input {
+    height: 40px;
+  }
+
+  .fale_conosco textarea {
+    height: 80px;
+  }
 }
