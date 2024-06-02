@@ -256,6 +256,7 @@
       </div>
       <div class="footer__col">
         <h4>Apotecária</h4>
+        <a href="#" id="voltarAoInicio">Volte ao Início</a> 
         <a href="#">Parcerias</a>
         <a href="#">Nos encontre</a>
       </div>
@@ -275,5 +276,19 @@
     <div class="footer__bar">
       Copyright © 2024 A apotecária design. Todos os direitos reservados.
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var voltarAoInicio = document.getElementById('voltarAoInicio');
+
+    voltarAoInicio.addEventListener('click', function(event) {
+      event.preventDefault();
+
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+    </script>
   </body>
 </html>
