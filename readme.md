@@ -2,6 +2,9 @@
 
 Bem-vindo ao repositório da Apotecaria, um site responsivo com elementos interativos e uso de elementos DOM. Este projeto foi desenvolvido como parte do desafio do Desenvolve - Grupo Boticário e tem como objetivo demonstrar habilidades de design responsivo, programação interativa e manipulação do Document Object Model (DOM) em HTML, CSS e JavaScript.
 
+![Captura de tela 2024-06-01 213653](https://github.com/EryckBarreto/apotecaria/assets/126429105/a577ac38-04d5-42d2-a66b-6cecd4b2eef8)
+
+
 ## Visão Geral
 
 A Apotecaria é um site fictício que apresenta informações sobre um perfume revolucionário. O site foi criado com o objetivo de mostrar técnicas modernas de desenvolvimento web, incluindo design responsivo para diferentes dispositivos e interatividade para melhorar a experiência do usuário.
